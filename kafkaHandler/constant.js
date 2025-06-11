@@ -2,7 +2,7 @@ const BROKER_ADDRESS = 'brokerAddress';
 const MECHANISM = 'mechanism';
 const USERNAME = 'username';
 const PASSWORD = 'password';
-const CLIENT_ID = 'mb-app';
+const CLIENT_ID = 'clientId';
 
 const BROKER_LIST = (() => {
   return [BROKER_ADDRESS];
