@@ -1,5 +1,5 @@
 const issueConsumer = require('./consumer/issue');
-const issueProducer = require('./producer/issue');
+const issueProducer = require('./producer/init');
 
 const abnormalSignalTraps = ['SIGINT', 'SIGUSR1', 'SIGUSR2'];
 abnormalSignalTraps.forEach((type) => {
